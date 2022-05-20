@@ -9,14 +9,14 @@ const cn = DATABASE_URL
     connectionString: DATABASE_URL,
     max: 30,
     ssl:{
-        rejectUnauthorized: false
+        rejectUnauthorized: false,
     },
  }
 :{
-    host: process.env.PG_HOST,
-    port: process.env.PG_PORT,
-    database: process.env.PG_DATABASE,
-    user: process.env.PG_USER,
+    host: PG_HOST,
+    port: PG_PORT,
+    database: PG_DATABASE,
+    user: PG_USER,
     password: PG_PASSWORD,
 };
 
