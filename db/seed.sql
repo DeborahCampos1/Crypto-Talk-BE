@@ -32,7 +32,7 @@ INSERT INTO resources(name, type, category, url, is_favorite) VALUES
 ('Teachers Donating Crypto...', 'article', 'news', 
     'https://news.bitcoin.com/cardano-to-reach-58-by-2030-according-to-finders-poll/', 
     false),
-('Ethereum bounces back up...', 'article', 'education',
+('Ethereum bounces back up...', 'article', 'news',
     'https://news.bitcoin.com/bitcoin-ethereum-technical-analysis-eth-bounces-back-up-2-while-btc-climbs-above-30000/', 
     true),
 ('Crypto Platform Hack Rocks Blockchain Community...', 'article', 'education', 
