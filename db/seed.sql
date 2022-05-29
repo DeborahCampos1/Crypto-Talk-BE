@@ -2,45 +2,43 @@
 
 INSERT INTO resources(name, type, category, url, is_favorite) VALUES
 (
-    'Ethereum News...', 'article', 'education', 
-    'https://news.bitcoin.com/bitcoin-ethereum-technical-analysis-eth-back-below-2000-as-btc-down-6-to-start-weekend/', 
+    'Dodgecoin Jumps On Elon Musl Space X Tweet', 'article', 'news', 
+    'https://www.coindesk.com/business/2022/05/27/dogecoin-jumps-on-elon-musk-space-x-tweet/', 
     true
 ),
 (
-    'Bitcoin News...', 'article', 'news', 
-    'https://news.bitcoin.com/bitcoin-ethereum-technical-analysis-eth-btc-surge-over-10-as-big-2-lead-crypto-rebound/', 
+    'Crypto City Guide To New York', 'article', 'news', 
+    'https://cointelegraph.com/magazine/2021/10/28/crypto-city-guide-to-new-york', 
     true
 ),
 (
-    'Crypto Wallet...', 'article', 'education', 
-    'https://news.bitcoin.com/rich-dad-poor-dads-robert-kiyosaki-plans-to-buy-bitcoin-when-the-bottom-is-in-17k/', 
-    false
-),
-(
-    'Bitcoin, Ethereum Technical Analysis...', 'article', 'education', 
-    'https://bitcoinmagazine.com/culture/what-makes-bitcoin-different-from-crypto', 
+    'Crypto Is Changing How Humanitarian Agencies Deliver Aid', 'article', 'news', 
+    'https://cointelegraph.com/magazine/2022/05/25/crypto-blockchain-changing-humanitarian-agencies-deliver-aid', 
     true
 ),
 (
-    'Pursuit Announces Crypto for Fellows...', 'article', 'news', 
-    'https://news.bitcoin.com/coinbase-now-allows-cardano-staking-services-firm-plans-to-continue-to-scale-staking-portfolio/', 
-    false
+    'How Can The U.S. Establish Itself As a Crypto Leader?', 'article', 'news', 
+    'https://www.coindesk.com/layer2/2022/05/27/how-the-us-can-establish-itself-as-a-crypto-leader/', 
+    true
 ),
-('Crypto for Retirement...', 'article', 'education', 
-    'https://news.bitcoin.com/tesla-ceo-elon-musk-reaffirms-dogecoin-has-potential-as-a-currency-as-twitter-deal-is-put-on-hold/', 
-    false),
-('Teachers Donating Crypto...', 'article', 'news', 
-    'https://news.bitcoin.com/cardano-to-reach-58-by-2030-according-to-finders-poll/', 
-    false),
-('Ethereum bounces back up...', 'article', 'news',
-    'https://news.bitcoin.com/bitcoin-ethereum-technical-analysis-eth-bounces-back-up-2-while-btc-climbs-above-30000/', 
-    true),
-('Crypto Platform Hack Rocks Blockchain Community...', 'article', 'education', 
-    'https://www.bloomberg.com/news/features/2022-05-19/crypto-platform-hack-rocks-blockchain-community', 
-    true),
-('Crypto-loving S.Koreans bet on Luna rising from ashes, worrying regulator', 'article', 'news', 
-    'https://www.reuters.com/markets/currencies/crypto-loving-skoreans-bet-luna-rising-ashes-worrying-regulator-2022-05-19/', 
-    true),
-('Crypto Accelerator Program in Kenya', 'article', 'education', 
-    'https://news.bitcoin.com/lbank-and-adanian-labs-kickstarts-a-crypto-accelerator-program-in-kenya/', 
-    true);
+(
+    'How To Keep Your Crypto Safe', 'article', 'news', 
+    'https://cointelegraph.com/magazine/2022/01/25/security-experts-reveal-how-keep-crypto-safe', 
+    true
+),
+(   'Inflationary & Deflationary Cryptocurrencies', 'article', 'news', 
+    'https://www.coindesk.com/learn/inflationary-and-deflationary-cryptocurrencies-whats-the-difference/', 
+    true
+),
+(   'Stripe Partners With Opennnode To Allow Instant Bitcoin Conversions for Businesses', 'article', 'news', 
+    'https://www.coindesk.com/business/2022/05/24/stripe-partners-with-opennode-to-allow-instant-fiat-to-bitcoin-conversions-for-businesses/', 
+    true
+),
+(   '6 Crypto Myths Debunked', 'article', 'news',
+    'https://www.gobankingrates.com/investing/crypto/crypto-myths-debunked/', 
+    true
+),
+(   'How To Use Crypto For Buy Now Pay Later Transactions', 'article', 'education', 
+    'https://www.gobankingrates.com/investing/crypto/how-use-crypto-buy-now-pay-later-transactions/', 
+    true
+);
