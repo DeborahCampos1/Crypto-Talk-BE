@@ -2,11 +2,17 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const resourcesController = require("./controllers/resourcesController.js");
+const usersController = require("./controllers/usersController.js");
+const favoritesController = require("./controllers/favoritesController.js");
+
 
 
 app.use(cors());
 app.use(express.json());
 app.use("/resources", resourcesController);
+app.use("/users", usersController);
+app.use("/favorites", favoritesController);
+
 
 
 app.get("/", (req, res) => {
