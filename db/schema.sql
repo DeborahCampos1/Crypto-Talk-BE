@@ -1,7 +1,8 @@
 DROP DATABASE IF EXISTS api_endpoint;
 CREATE DATABASE api_endpoint;
 
-\c api_endpoint;;
+\c api_endpoint;
+
 
 CREATE TABLE users(
     id SERIAL PRIMARY KEY,
