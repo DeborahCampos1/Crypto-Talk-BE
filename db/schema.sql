@@ -3,7 +3,6 @@ CREATE DATABASE api_endpoint;
 
 \c api_endpoint;
 
-
 CREATE TABLE users(
     id SERIAL PRIMARY KEY,
     firstname TEXT,

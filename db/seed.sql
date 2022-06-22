@@ -70,8 +70,8 @@ INSERT INTO resources(name, type, category, url, is_favorite) VALUES
     true
 ),
 (   
-    'How to Sell Bitcoin', 'article', 'education-article', 
-    'https://www.bitcoin.com/get-started/how-to-sell-bitcoin/', 
+    'What is Defi?', 'article', 'education-article', 
+    'https://www.bitcoin.com/get-started/what-is-defi-decentralized-finance/', 
     true
 ),
 (   
